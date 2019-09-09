@@ -1,0 +1,78 @@
+                          A511 Release Note
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+Project Name              :A511(CoffeeLake H + IT8785)
+Customer                  :	
+SKU Name                  :
+BOM Model                 :
+CPU uCode                 :CoffeeLak:B8/B4/AE
+ME FW Version             :12.0.34.1425
+BIOS Version              :A511_A5
+BIOS File Name            :A511_A5.bin(16MB)
+BIOS CheckSum             :CB65 0ED0H
+Released date             :2019-08-30
+BIOS modification:
+	1.Preserve DMI data after clear CMOS
+        2.add power on delay for TW team debug GFX.
+----------------------------------------------------------------------------------
+Project Name              :A511(CoffeeLake H + IT8785)
+Customer                  :	
+SKU Name                  :
+BOM Model                 :
+CPU uCode                 :CoffeeLak:B8/B4/AE
+ME FW Version             :12.0.34.1425
+BIOS Version              :A511_A4
+BIOS File Name            :A511_A4.bin(16MB)
+BIOS CheckSum             :CB67 44F1H
+Released date             :2019-05-24
+BIOS modification:
+	1.set "Intel(R) HD Audio Voltage Select" as 1.8Volts
+----------------------------------------------------------------------------------
+Project Name              :A511(CoffeeLake H + IT8785)
+Customer                  :	
+SKU Name                  :
+BOM Model                 :
+CPU uCode                 :CoffeeLak:B8/B4/AE
+ME FW Version             :12.0.34.1425
+BIOS Version              :A511_A3
+BIOS File Name            :A511_A3.bin(16MB)
+BIOS CheckSum             :CB66 C751H
+Released date             :2019-05-20
+BIOS modification:
+	1.update MicroCode
+	2.update ME Firmware
+----------------------------------------------------------------------------------
+Project Name              :A511(CoffeeLake H + IT8785)
+Customer                  :	
+SKU Name                  :
+BOM Model                 :
+CPU uCode                 :CoffeeLak:96/8E/84
+ME FW Version             :12.0.0.1069
+BIOS Version              :A511_A2
+BIOS File Name            :A511_A2.bin(16MB)
+BIOS CheckSum             :CD91 C06BH
+Released date             :2019-03-12
+BIOS modification:
+	1.show Nvme Menu
+	2.remove checkpoint show on screen
+	3.fixed setup prompt message can't display on the logo for high resolution monitor 
+----------------------------------------------------------------------------------
+Project Name              :A511(CoffeeLake H + IT8785)
+Customer                  :	
+SKU Name                  :
+BOM Model                 :
+CPU uCode                 :CoffeeLak:96/8E/84
+ME FW Version             :12.0.0.1069
+BIOS Version              :A511_A1
+BIOS File Name            :A511_A1.bin(16MB)
+BIOS CheckSum             :CD90 FBB1H
+Released date             :2019-02-26
+BIOS modification:
+	1.set PCH GPIO B20/D1/C22/E6 as output
+	2.set GPP_D1 output 500ms high/low loop
+	3.set "Setup Prompt Timeout" as 16S
+	4.Add RTCWake Module
+	5.set "Restore From AC Power Loss" as [Power On]
+	6.set DMI's "SYSTEM_SERIAL_NUMBER" as "LWT_A511UM0100"
+	7.set BIOS Version is A511_A1
+----------------------------------------------------------------------------------

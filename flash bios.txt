@@ -1,0 +1,5 @@
+        1. copy all files to your USB key
+        2. plug your USB key to the systme
+	3. press "F8" when POST
+	4. select boot to  EFI shell from your USB key
+	5. run "flash.nsh" to flash the BIOS.
